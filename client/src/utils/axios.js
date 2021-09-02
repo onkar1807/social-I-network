@@ -1,7 +1,5 @@
 import axios from 'axios'
 
-export default axiosInstance
-
 export const getDataApi = async (url, token) => {
     const res = await axios.get(`/api/${url}`, {
         headers: {
