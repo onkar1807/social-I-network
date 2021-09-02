@@ -1,2 +1,2 @@
-export const API = 'http://localhost:5000/api'
-export const BASE_URL = 'http://localhost:3000'
+export const API = 'https://i-network-onkar.herokuapp.com//api'
+export const BASE_URL = 'https://i-network-onkar.herokuapp.com/'
