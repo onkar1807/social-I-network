@@ -3,7 +3,7 @@ import valid from "../../utils/valid";
 import { globalTypes } from "../actions/constant";
 
 //-----------------LOGIN---------------------//
-export const login = (data) => {
+export const login = (data, token) => {
     return async (dispatch) => {
         try {
             dispatch({
@@ -13,7 +13,7 @@ export const login = (data) => {
                 }
             })
 
-            const res = await axios.post('/login', data);
+            const res = await postDataApi('/login', data);
             // const res = await axios.post('/login', data);
 
             dispatch({
@@ -47,7 +47,7 @@ export const login = (data) => {
 
 
 //-----------------REGISTER---------------------//
-export const register = (data) => {
+export const register = (data, token) => {
     return async (dispatch) => {
 
         const check = valid(data)
@@ -65,7 +65,7 @@ export const register = (data) => {
                 payload: { loading: true } 
             })
 
-            const res = await axios.post('/register', data);
+            const res = await postDataApi('/register', data);
 
             dispatch({
                 type: globalTypes.AUTH,
@@ -98,7 +98,7 @@ export const register = (data) => {
 export const logout = () => async (dispatch) => {
     try {
         localStorage.clear()
-        await axios.post('/logout')
+        await postDataApi('/logout')
         window.location.href = "/"
     } catch (error) {
         dispatch({
