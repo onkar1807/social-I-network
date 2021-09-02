@@ -1,10 +1,4 @@
 import axios from 'axios'
-import { API } from './url'
-
-
-const axiosInstance = axios.create({
-    baseURL: API
-})
 
 export default axiosInstance
 
