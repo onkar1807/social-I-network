@@ -16,6 +16,7 @@
  * Like Post
  * Unline Post
  * Delete Post
+ * Follow & Unfollow to user
  * View Profile
  * Edit Profile
  * Individual Chatting
@@ -24,3 +25,4 @@
  * Save Post
  * Notification
  * Audion & Video calling
+ * Dark mode
