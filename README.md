@@ -12,15 +12,15 @@
 # Features
  * Login
  * Signup
- Create Post
- Like Post
- Unline Post
- Delete Post
- View Profile
- Edit Profile
- Individual Chatting
- View Other user profile
- Search User
- Save Post
- Notification
- Audion & Video calling
+ * Create Post
+ * Like Post
+ * Unline Post
+ * Delete Post
+ * View Profile
+ * Edit Profile
+ * Individual Chatting
+ * View Other user profile
+ * Search User
+ * Save Post
+ * Notification
+ * Audion & Video calling
