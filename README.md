@@ -8,3 +8,19 @@
 # Interface
 
 ![Screenshot (220)](https://user-images.githubusercontent.com/70166293/134705454-00e9c90b-e0aa-4c29-890d-1e7c50059c28.png)
+
+# Features
+ Login
+ Signup
+ Create Post
+ Like Post
+ Unline Post
+ Delete Post
+ View Profile
+ Edit Profile
+ Individual Chatting
+ View Other user profile
+ Search User
+ Save Post
+ Notification
+ Audion & Video calling
