@@ -1,4 +1,4 @@
-# social-i-network
+# Social-i-network (Realtime)
 
 # MERN stack - Build a social media app with MERN + Redux + Botstrap + Socket.io & Peerjs
 (instagram clone) 
